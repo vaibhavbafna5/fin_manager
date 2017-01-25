@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "c4989cfc5d080b88ab52583f57949b97"
+build_time: [538200490, 777760000]
+inputs:
+  "/Users/Vaibhav/Desktop/Finance Manager/AddTransactionViewController.swift": [538200489, 0]
+  "/Users/Vaibhav/Desktop/Finance Manager/Finance Manager/HomeViewController.swift": [538199750, 0]
+  "/Users/Vaibhav/Desktop/Finance Manager/Finance Manager/AppDelegate.swift": [538188665, 0]

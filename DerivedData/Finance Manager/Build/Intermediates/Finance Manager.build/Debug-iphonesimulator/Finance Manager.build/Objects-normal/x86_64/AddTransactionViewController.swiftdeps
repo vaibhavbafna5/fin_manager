@@ -1,0 +1,612 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddTransactionViewController"
+provides-nominal:
+- "C15Finance_Manager28AddTransactionViewController"
+provides-member:
+- ["C15Finance_Manager28AddTransactionViewController", ""]
+provides-dynamic-lookup:
+- "didTapDoneButton"
+- "amountTextField"
+- "viewDidAppear"
+- "didSwipeDown"
+- "viewDidLoad"
+- "titleTextField"
+depends-top-level:
+- "UIButton"
+- !private "Transaction"
+- "UISwipeGestureRecognizer"
+- "AddTransactionViewController"
+- "AssignmentPrecedence"
+- "UIViewController"
+- !private "Float"
+- !private "primaryAccount"
+- "Bool"
+- !private "BooleanLiteralType"
+- "UITextField"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["V15Finance_Manager7Account", "transaction"]
+- ["C15Finance_Manager28AddTransactionViewController", "Bool"]
+- !private ["C15Finance_Manager28AddTransactionViewController", "Float"]
+- !private ["C15Finance_Manager28AddTransactionViewController", "Transaction"]
+- ["C15Finance_Manager28AddTransactionViewController", "UIButton"]
+- ["C15Finance_Manager28AddTransactionViewController", "UISwipeGestureRecognizer"]
+- ["C15Finance_Manager28AddTransactionViewController", "UITextField"]
+- ["C15Finance_Manager28AddTransactionViewController", "amountTextField"]
+- ["C15Finance_Manager28AddTransactionViewController", "deinit"]
+- ["C15Finance_Manager28AddTransactionViewController", "didSwipeDown"]
+- ["C15Finance_Manager28AddTransactionViewController", "didTapDoneButton"]
+- !private ["C15Finance_Manager28AddTransactionViewController", "dismiss"]
+- ["C15Finance_Manager28AddTransactionViewController", "init"]
+- !private ["C15Finance_Manager28AddTransactionViewController", "primaryAccount"]
+- ["C15Finance_Manager28AddTransactionViewController", "titleTextField"]
+- !private ["C15Finance_Manager28AddTransactionViewController", "view"]
+- ["C15Finance_Manager28AddTransactionViewController", "viewDidAppear"]
+- ["C15Finance_Manager28AddTransactionViewController", "viewDidLoad"]
+- !private ["Ps9AnyObject", "Float"]
+- !private ["Ps9AnyObject", "Transaction"]
+- !private ["Ps9AnyObject", "UISwipeGestureRecognizer"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- ["Ps9AnyObject", "amountTextField"]
+- !private ["Ps9AnyObject", "becomeFirstResponder"]
+- ["Ps9AnyObject", "didSwipeDown"]
+- ["Ps9AnyObject", "didTapDoneButton"]
+- !private ["Ps9AnyObject", "direction"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "primaryAccount"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "titleTextField"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidAppear"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
+- !private ["PSo15CALayerDelegate", "becomeFirstResponder"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Float"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Transaction"]
+- !private ["Ps7CVarArg", "UISwipeGestureRecognizer"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- ["Ps7CVarArg", "amountTextField"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "becomeFirstResponder"]
+- ["Ps7CVarArg", "didSwipeDown"]
+- ["Ps7CVarArg", "didTapDoneButton"]
+- !private ["Ps7CVarArg", "direction"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "primaryAccount"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "titleTextField"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidAppear"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Float"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Transaction"]
+- !private ["Ps28CustomDebugStringConvertible", "UISwipeGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- ["Ps28CustomDebugStringConvertible", "amountTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "becomeFirstResponder"]
+- ["Ps28CustomDebugStringConvertible", "didSwipeDown"]
+- ["Ps28CustomDebugStringConvertible", "didTapDoneButton"]
+- !private ["Ps28CustomDebugStringConvertible", "direction"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "primaryAccount"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "titleTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Float"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Transaction"]
+- !private ["Ps23CustomStringConvertible", "UISwipeGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- ["Ps23CustomStringConvertible", "amountTextField"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "becomeFirstResponder"]
+- ["Ps23CustomStringConvertible", "didSwipeDown"]
+- ["Ps23CustomStringConvertible", "didTapDoneButton"]
+- !private ["Ps23CustomStringConvertible", "direction"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "primaryAccount"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "titleTextField"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidAppear"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Float"]
+- !private ["Ps9Equatable", "Transaction"]
+- !private ["Ps9Equatable", "UISwipeGestureRecognizer"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- ["Ps9Equatable", "amountTextField"]
+- !private ["Ps9Equatable", "becomeFirstResponder"]
+- ["Ps9Equatable", "didSwipeDown"]
+- ["Ps9Equatable", "didTapDoneButton"]
+- !private ["Ps9Equatable", "direction"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "down"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "primaryAccount"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "titleTextField"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidAppear"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "down"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "Float"]
+- !private ["Ps8Hashable", "Transaction"]
+- !private ["Ps8Hashable", "UISwipeGestureRecognizer"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- ["Ps8Hashable", "amountTextField"]
+- !private ["Ps8Hashable", "becomeFirstResponder"]
+- ["Ps8Hashable", "didSwipeDown"]
+- ["Ps8Hashable", "didTapDoneButton"]
+- !private ["Ps8Hashable", "direction"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "primaryAccount"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "titleTextField"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidAppear"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "Float"]
+- !private ["PSo8NSCoding", "Transaction"]
+- !private ["PSo8NSCoding", "UISwipeGestureRecognizer"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- ["PSo8NSCoding", "amountTextField"]
+- !private ["PSo8NSCoding", "becomeFirstResponder"]
+- ["PSo8NSCoding", "didSwipeDown"]
+- ["PSo8NSCoding", "didTapDoneButton"]
+- !private ["PSo8NSCoding", "dismiss"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "primaryAccount"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "titleTextField"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "Float"]
+- !private ["PSo26NSExtensionRequestHandling", "Transaction"]
+- !private ["PSo26NSExtensionRequestHandling", "UISwipeGestureRecognizer"]
+- ["PSo26NSExtensionRequestHandling", "amountTextField"]
+- ["PSo26NSExtensionRequestHandling", "didSwipeDown"]
+- ["PSo26NSExtensionRequestHandling", "didTapDoneButton"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "primaryAccount"]
+- ["PSo26NSExtensionRequestHandling", "titleTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Float"]
+- !private ["CSo8NSObject", "Transaction"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UISwipeGestureRecognizer"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- ["CSo8NSObject", "amountTextField"]
+- !private ["CSo8NSObject", "becomeFirstResponder"]
+- ["CSo8NSObject", "didSwipeDown"]
+- ["CSo8NSObject", "didTapDoneButton"]
+- !private ["CSo8NSObject", "direction"]
+- !private ["CSo8NSObject", "dismiss"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "primaryAccount"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "titleTextField"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Float"]
+- !private ["PSo16NSObjectProtocol", "Transaction"]
+- !private ["PSo16NSObjectProtocol", "UISwipeGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- ["PSo16NSObjectProtocol", "amountTextField"]
+- !private ["PSo16NSObjectProtocol", "becomeFirstResponder"]
+- ["PSo16NSObjectProtocol", "didSwipeDown"]
+- ["PSo16NSObjectProtocol", "didTapDoneButton"]
+- !private ["PSo16NSObjectProtocol", "direction"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "primaryAccount"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "titleTextField"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps9OptionSet", "down"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "append"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- !private ["Ps16RawRepresentable", "down"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps10SetAlgebra", "down"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- ["V15Finance_Manager11Transaction", "deinit"]
+- !private ["V15Finance_Manager11Transaction", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "becomeFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "becomeFirstResponder"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Float"]
+- !private ["PSo21UIAppearanceContainer", "Transaction"]
+- !private ["PSo21UIAppearanceContainer", "UISwipeGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- ["PSo21UIAppearanceContainer", "amountTextField"]
+- !private ["PSo21UIAppearanceContainer", "becomeFirstResponder"]
+- ["PSo21UIAppearanceContainer", "didSwipeDown"]
+- ["PSo21UIAppearanceContainer", "didTapDoneButton"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "primaryAccount"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "titleTextField"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Float"]
+- !private ["PSo18UIContentContainer", "Transaction"]
+- !private ["PSo18UIContentContainer", "UISwipeGestureRecognizer"]
+- ["PSo18UIContentContainer", "amountTextField"]
+- ["PSo18UIContentContainer", "didSwipeDown"]
+- ["PSo18UIContentContainer", "didTapDoneButton"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "primaryAccount"]
+- ["PSo18UIContentContainer", "titleTextField"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "becomeFirstResponder"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "becomeFirstResponder"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "becomeFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "becomeFirstResponder"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Float"]
+- !private ["PSo18UIFocusEnvironment", "Transaction"]
+- !private ["PSo18UIFocusEnvironment", "UISwipeGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- ["PSo18UIFocusEnvironment", "amountTextField"]
+- !private ["PSo18UIFocusEnvironment", "becomeFirstResponder"]
+- ["PSo18UIFocusEnvironment", "didSwipeDown"]
+- ["PSo18UIFocusEnvironment", "didTapDoneButton"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "primaryAccount"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "titleTextField"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
+- !private ["PSo11UIFocusItem", "becomeFirstResponder"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo19UIGestureRecognizer", "direction"]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- !private ["PSo10UIKeyInput", "becomeFirstResponder"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Float"]
+- !private ["CSo11UIResponder", "Transaction"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UISwipeGestureRecognizer"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "amountTextField"]
+- !private ["CSo11UIResponder", "becomeFirstResponder"]
+- ["CSo11UIResponder", "didSwipeDown"]
+- ["CSo11UIResponder", "didTapDoneButton"]
+- !private ["CSo11UIResponder", "dismiss"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "primaryAccount"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "titleTextField"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "Float"]
+- !private ["PSo30UIResponderStandardEditActions", "Transaction"]
+- !private ["PSo30UIResponderStandardEditActions", "UISwipeGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
+- ["PSo30UIResponderStandardEditActions", "amountTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "becomeFirstResponder"]
+- ["PSo30UIResponderStandardEditActions", "didSwipeDown"]
+- ["PSo30UIResponderStandardEditActions", "didTapDoneButton"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "primaryAccount"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "titleTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidAppear"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "Float"]
+- !private ["PSo16UIStateRestoring", "Transaction"]
+- !private ["PSo16UIStateRestoring", "UISwipeGestureRecognizer"]
+- ["PSo16UIStateRestoring", "amountTextField"]
+- ["PSo16UIStateRestoring", "didSwipeDown"]
+- ["PSo16UIStateRestoring", "didTapDoneButton"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "primaryAccount"]
+- ["PSo16UIStateRestoring", "titleTextField"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo24UISwipeGestureRecognizer", "deinit"]
+- !private ["CSo24UISwipeGestureRecognizer", "direction"]
+- !private ["CSo24UISwipeGestureRecognizer", "init"]
+- ["VSC33UISwipeGestureRecognizerDirection", "deinit"]
+- !private ["VSC33UISwipeGestureRecognizerDirection", "down"]
+- !private ["CSo11UITextField", "becomeFirstResponder"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "becomeFirstResponder"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "becomeFirstResponder"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "Float"]
+- !private ["PSo18UITraitEnvironment", "Transaction"]
+- !private ["PSo18UITraitEnvironment", "UISwipeGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- ["PSo18UITraitEnvironment", "amountTextField"]
+- !private ["PSo18UITraitEnvironment", "becomeFirstResponder"]
+- ["PSo18UITraitEnvironment", "didSwipeDown"]
+- ["PSo18UITraitEnvironment", "didTapDoneButton"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "primaryAccount"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "titleTextField"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- !private ["CSo6UIView", "becomeFirstResponder"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "Float"]
+- !private ["CSo16UIViewController", "Transaction"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UISwipeGestureRecognizer"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "amountTextField"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didSwipeDown"]
+- ["CSo16UIViewController", "didTapDoneButton"]
+- !private ["CSo16UIViewController", "dismiss"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "primaryAccount"]
+- ["CSo16UIViewController", "titleTextField"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "becomeFirstResponder"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "Float"]
+- !private ["Ps9_Hashable", "Transaction"]
+- !private ["Ps9_Hashable", "UISwipeGestureRecognizer"]
+- !private ["Ps9_Hashable", "addGestureRecognizer"]
+- ["Ps9_Hashable", "amountTextField"]
+- !private ["Ps9_Hashable", "becomeFirstResponder"]
+- ["Ps9_Hashable", "didSwipeDown"]
+- ["Ps9_Hashable", "didTapDoneButton"]
+- !private ["Ps9_Hashable", "direction"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "primaryAccount"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "titleTextField"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidAppear"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "V15Finance_Manager7Account"
+- "C15Finance_Manager28AddTransactionViewController"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Sf"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "V15Finance_Manager11Transaction"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo19UIGestureRecognizer"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "CSo24UISwipeGestureRecognizer"
+- "VSC33UISwipeGestureRecognizerDirection"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "c339e3ff634967690e828e96b1e96252"
